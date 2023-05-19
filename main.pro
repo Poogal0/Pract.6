@@ -1,2 +1,9 @@
 QT += widgets
-SOURCES += main.cpp
+
+TARGET = SimpleQtApp
+TEMPLATE = app
+
+SOURCES += main.cpp \
+    mainwindow.cpp
+
+HEADERS += mainwindow.h
